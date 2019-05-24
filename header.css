@@ -1,0 +1,14 @@
+/*面包屑导航的样式*/
+.breadcrumb-item + .breadcrumb-item::before {
+    content:"|";
+}
+.breadcrumb{
+    background-color: transparent;
+}
+ul.top_reg_login a:hover{
+    color:#00a1ed !important;
+    text-decoration: none !important;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0;
+}
